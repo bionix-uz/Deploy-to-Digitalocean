@@ -5,7 +5,7 @@
 ##### Digital ocean da yaratilgan serverga bog'lanamiz
 - Terminalda yoki Terminus da
 - - ``` ssh root@serverning-ip```
-- - - Natija: ``` ezozbek@MacBook ~ % ssh root@138.197.186.44
+a- - - Natija: ``` ezozbek@MacBook ~ % ssh root@138.197.186.44
 The authenticity of host '138.197.186.44 (138.197.186.44)' can't be established.
 ED25519 key fingerprint is SHA256:6+7rEbO8lOyH3Hb618CT+apkQphvZ8OVQLnS8/4Q+Yk.
 This key is not known by any other names.
@@ -32,9 +32,15 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])? ```
 ######  repositoryni projectni deploy qilish uchun shunchaki projectning repositoryining urlni olish yetarli buning uchun.
 - ``root@test-server:~# git clone git@github.com:username/repository-name.git``
 ###### ssh bog'lashimiz kerak buning uchun: 
-- `` root@test-server:~#  cd .ssh/``
-- `` root@test-server:~/.ssh# ssh-keygen ``
-- `` root@test-server:~/.ssh# cat id_rsa.pub ``
+```angular2html
+cd .ssh/
+```
+```angular2html
+ssh-keygen
+```
+```angular2html
+cat id_rsa.pub
+```
 - - Chiqgan natija `` ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDRULehQjMMOdTS30z85+4QYjD64xa1wjGLK72ypM72S+HcbEX8Nqn1AiDNXqsyQ0JwA7BhzjeG5bWYDV2UrKiJmZCLsK+W/1JeFcQ/lPxmlFD0WdwK8yB/EpOo1ptZPCB1ib3uJV91gLf9SD6pafGourj9mZNP4P62McaoldkoX3awaR/uQjxIfuYW2yj5gr6CLTrF3v811pglUSASoaQVZgUNIOTs2vJGMrn4Ujl7ANZLAsffMGWZim+agogXbg/VmLBWYwgt+tJy7zhacfqSjUNdguf6/Sb6l2+l01QwQ6cr/NX4kx93TIUdR+Ah9n8a1kncj1XQAC4C7ktnCtCYwS+lItYXupWaGenynvMncx0NWioGK/T+i/pnGYAuicvzXn73Yu9QPLC062dUfYjDLMDEdNGFaNj6A3Rj1ZpcJvgyyFooy4CLq/7VSilo+SxPZZ7srjVZyYAMU2gqBgBGG+6hx3SiRR5tvPXm1ES7Fxf7Tnog9NpjH10NQd3GSts= root@test-server``
 - - sshni copy (Nusxa)lab.
 - ![github.png](github.png)
