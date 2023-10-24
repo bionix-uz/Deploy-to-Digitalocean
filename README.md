@@ -29,9 +29,9 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])? ```
 - `` GRANT ALL PRIVILEGES ON DATABASE projectname TO postgres ;``
 - `` \q `` chiqish uchun.
 ### Projectni githubdan clone qilishimiz kerak.
-###### Public repository da projectni deploy qilish uchun shunchaki projectning repositoryining urlni olish yetarli buning uchun.
+######  repositoryni projectni deploy qilish uchun shunchaki projectning repositoryining urlni olish yetarli buning uchun.
 - ``root@test-server:~# git clone git@github.com:username/repository-name.git``
-###### Private repository ni clone qilish uchun ssh bog'lashimiz kerak buning uchun: 
+###### ssh bog'lashimiz kerak buning uchun: 
 - `` root@test-server:~#  cd .ssh/``
 - `` root@test-server:~/.ssh# ssh-keygen ``
 - `` root@test-server:~/.ssh# cat id_rsa.pub ``
@@ -42,10 +42,6 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])? ```
 - - New SSH key button(tugma)si bosilgandan keyin
 - ![ssh.png](ssh.png)
 
-#### Private loyhalarni clone qilishimiz mumkin.
-- Buning uchun ``root@test-server:~# git clone git@github.com:username/repository-name.git ``
-- - Loyha muaffaqiyatli clone(Nusxa) qilindi.
-- - - Loyha Turgani file github repositoryning nomi yozilgan fileda bo'ladi.
 -----------
 # Loyhani o'rnatish.
 ###### Bunign uchun biz birnichi bo'lib loyha turgan file ga kirib olishimiz kerak.
